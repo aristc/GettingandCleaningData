@@ -28,7 +28,7 @@ avgData : meanstdData summarised by subject and activity
 ## Intermediary tables (do not appear in final results)
 
 1. to build labels
-
+2. 
 activity : reads "activity_labels.txt"
 features : reads "features.txt"
 
