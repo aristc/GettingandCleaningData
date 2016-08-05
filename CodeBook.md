@@ -4,6 +4,8 @@
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+View READ ME for more information on this dataset.
+
 ## Instructions
 
 You should create one R script called run_analysis.R that does the following.
