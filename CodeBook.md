@@ -30,10 +30,12 @@ avgData : meanstdData summarised by subject and activity
 ## Intermediary tables (do not appear in final results)
 
 1. to build labels
+
 activity : reads "activity_labels.txt"
 features : reads "features.txt"
 
 2. to build allData
+
 Xtest : reads "X_test.txt"
 Ytest: reads "y_test.txt"
 subjecttest : reads "subject_test.txt"
