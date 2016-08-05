@@ -28,7 +28,7 @@ activityLabels<-as.character(activity$V2)
     subjecttrain$Subject<-as.factor(subjecttrain$Subject)
 
     ## a.d Combine the three sets to get the train data
-    trainData<-cbind(subjectTrain,Ytrain,Xtrain)
+    trainData<-cbind(subjecttrain,Ytrain,Xtrain)
     
 ## b. Prepare test data
     
@@ -98,6 +98,6 @@ activityLabels<-as.character(activity$V2)
         summarise_each(funs(mean))
     
     ## 5.b. Export the dataset as a txt file
-    write.table(avgData,"tidydata.txt")
+    write.table(avgData,"tidydata.txt",row.names = FALSE)
     
     
